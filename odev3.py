@@ -7,7 +7,8 @@ for y in sayilar:
     if((y%3)==0):
         print(y)
 #3- sayilar listesinde tüm sayiların toplamı nedir?
-
+toplam = sum(sayilar)
+print("Tüm sayıların toplamı:", toplam)
 urunler=["iphone", "samsung s4", "samsung s22", "iphone 15", "iphone 14"]
 #4-urunler listesinde ki tüm iphone marka ürünleri listeleyiniz. (index ve find komutlarından yararlanınız)
 iphone_urunleri = [urun for urun in urunler if urun.find("iphone") != -1]
